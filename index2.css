@@ -1,0 +1,44 @@
+.courses{
+    width: 100%;
+    margin: 5% auto;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.courses h1{
+    font-size: 40px;
+}
+
+.courses h3{
+    font-size: 25px;
+}
+
+.courses div p{
+    padding: 20px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 5%;
+    /* color: #FFEACA; */
+    
+}
+
+.course-col{
+    margin: 0 4px;
+    padding: 14px;
+    background: #FFBCBC;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 500px){
+    .row{
+        flex-direction: column;
+    }
+    .course-col{
+        margin-top: 10px;
+    }
+}
