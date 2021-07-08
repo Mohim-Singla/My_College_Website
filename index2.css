@@ -1,5 +1,5 @@
 .courses{
-    width: 100%;
+    width: 90%;
     margin: 5% auto;
     text-align: center;
     padding: 10px 0 0 0;
@@ -10,6 +10,8 @@
 }
 
 .courses h3{
+
+    margin-top: 4%;
     font-size: 25px;
 }
 
@@ -22,16 +24,16 @@
 .row{
     display: flex;
     justify-content: space-between;
-    margin: 5% 5%;
+    margin: 5% 2%;
     /* color: #FFEACA; */
     
 }
 
 .course-col{
-    margin: 0 4px;
-    padding: 14px;
+    margin: 0 5px;
+    padding: 2px;
     background: #FFBCBC;
-    border-radius: 8px;
+    border-radius: 10%;
 }
 
 @media screen and (max-width: 500px){
