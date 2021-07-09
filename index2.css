@@ -21,6 +21,10 @@
     text-align-last: center;
 }
 
+#punchLine{
+    font-style: italic;
+}
+
 .row{
     display: flex;
     justify-content: space-between;
@@ -34,6 +38,10 @@
     padding: 2px;
     background: #FFBCBC;
     border-radius: 10%;
+}
+
+.course-col:hover{
+    box-shadow: 0 5px 15px rgba(10, 2, 2, 0.3);
 }
 
 @media screen and (max-width: 500px){
