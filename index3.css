@@ -1,0 +1,41 @@
+.campus{
+    width: 90%;
+    margin: 5% auto;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.campus h1{
+    font-size: 40px;
+}
+
+.campus img{
+    width: 40%;
+    height: 300px;
+    margin: 4%;
+}
+
+.campus-img{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.campus-individual:hover{
+    transition: 0.2s;
+    box-shadow: 0 25px 25px rgba(10, 2, 2, 0.678);
+}
+
+@media screen and (max-width: 500px) {
+    .campus-img{
+        flex-direction: column;
+    } 
+    .campus img{
+        width: 80%;
+        height: 150px;
+        text-align: center;
+        margin-left: 5%;
+        padding: 10px;
+    }   
+}
