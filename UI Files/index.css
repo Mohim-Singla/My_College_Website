@@ -112,11 +112,12 @@ nav .fa-times{
         position: absolute;
         height: 100vh;
         width: 200px;
-        background-color: rgba(54, 23, 23, 0.596);
+        background: rgba(54, 23, 23, 0.801);
         top: 0;
         right: -200px;
         text-align: left;
         transition: 1s;
+        z-index: 2;
     }
     nav .fa{
         display:inline-block;
