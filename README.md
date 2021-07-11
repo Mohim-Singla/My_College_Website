@@ -11,6 +11,6 @@ CSS
 JavaScript
 
 
-#Disclaimer
+# Disclaimer
 
 I have created this web page for demonstration of my development skills. It is not related to my college(Punjab Engineering College, Chandigarh) in any way officially. 
