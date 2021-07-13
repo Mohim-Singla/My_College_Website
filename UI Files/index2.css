@@ -10,7 +10,6 @@
 }
 
 .courses h3{
-
     margin-top: 4%;
     font-size: 25px;
 }
@@ -19,6 +18,12 @@
     padding: 20px;
     text-align: justify;
     text-align-last: center;
+}
+
+.courses div ul{
+    padding: 20px;
+    margin: 2%;
+    text-align: left;
 }
 
 #punchLine{
@@ -35,6 +40,7 @@
 }
 
 .course-col{
+    width: 50%;
     margin: 0 5px;
     padding: 2px;
     background: #FFBCBC;
@@ -51,5 +57,7 @@
     }
     .course-col{
         margin-top: 10px;
+        width: 90%;
     }
+
 }
