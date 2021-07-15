@@ -12,6 +12,14 @@
     z-index: 4;
 }
 
+.test{
+    position: fixed;
+    background-color: #352b2bbb;
+    text-decoration-color: blanchedalmond;
+    z-index: 3;
+    height: 15%;
+}
+
 .no-scroll{
     overflow: hidden;
 }
@@ -24,6 +32,11 @@
     background-size: cover;
     position: relative; 
     background-repeat: no-repeat;
+}
+
+#navbar{
+    justify-content: space-between;
+    width: 100%;
 }
 
 nav{
@@ -47,6 +60,7 @@ nav img{
     list-style: none;
     display: inline-block;
     padding: 8px 30px;
+    justify-content: space-evenly;
     position: relative;
 }
 
